@@ -1,0 +1,21 @@
+.trainer_img {
+    border-radius: 0 2rem;
+    overflow: hidden;
+    object-fit:scale-down;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.manager-team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 0.5rem;
+    color: black;
+
+
+}
